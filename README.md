@@ -29,7 +29,7 @@ pip install numpy tensorflow
 ## Training
 To train models for blendshape prediction, execute:
 ```sh
-rez env k_launcher -- rez -w ml_blendshapes -l train
+rez env ml_blendshapes -- train
 ```
 This will process character-specific data and train a model for each target blendshape.
 
